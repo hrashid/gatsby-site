@@ -12,6 +12,7 @@ const IndexPage = ({data}) => {
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <h1>{Homepage.title}</h1>
+      <img className="image" src={"http://dev-dj-zaki.pantheonsite.io/" + Homepage.relationships.field_image_page.uri.url} />
       <p>Welcome to your new Gatsby site.</p>
       <p>Now go build something great.</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
@@ -30,10 +31,15 @@ export const query = graphql`
   ) {
     edges {
       node {
-        id
-        title
-        body {
-          value
+        id  
+        relationships{
+          field_image_page {
+            id
+            uri {
+              value
+              url
+            }
+          }
         }
       }
     }
