@@ -1,0 +1,2472 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/hrashid/Sites/gatsby-site/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "255c05e839c3aee810a7d9f25404ef41",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f9faa80464b68d4fda50116db6e1ad97",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9b27f752908c1513a7ea3aad787f2dc2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "65fc67b1b419fb5c4c9e9f83c60101a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "59e73bb0f79189c02abc5ad9dbbc3e2e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "70feef39793840eac1ba866e40bae259",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6212bcab4051b7526f24f37d7a944283",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "007c4bc4a6debc6ba6c479e9ec541a6c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4a572b09-0c01-570a-aed0-5ef977dc72cc": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-source-filesystem",
+      "id": "4a572b09-0c01-570a-aed0-5ef977dc72cc",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.16",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/hrashid/Sites/gatsby-site/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.16",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f2cc4515d679f08c98fd9ef37a3bbb87",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.10",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d01c4799513f557f663b52244a84359b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e58cd922ccb379e87e3c717502f6f483",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f445e8b7-1b40-55a8-a52e-21404533da69": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-source-drupal",
+      "id": "f445e8b7-1b40-55a8-a52e-21404533da69",
+      "name": "gatsby-source-drupal",
+      "version": "3.0.18",
+      "pluginOptions": {
+        "plugins": [],
+        "baseUrl": "http://dev-dj-zaki.pantheonsite.io/",
+        "apiBase": "jsonapi"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-source-drupal",
+      "packageJson": {
+        "name": "gatsby-source-drupal",
+        "description": "Gatsby source plugin for building websites using the Drupal CMS as a data source",
+        "version": "3.0.18",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9376e576e1409dc30be550c28441353c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "3dd322c0a718ee98ea37023edd10d3a5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.76"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-source-drupal",
+            "version": "^3.0.18"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "62de23c58c070a0648747421cd27d085",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6248c02f-e1b4-50f1-b633-6e348efdbf22": {
+      "resolve": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-plugin-page-creator",
+      "id": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/hrashid/Sites/gatsby-site/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/hrashid/Sites/gatsby-site/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c1e0859b718bb45b2c439b8d5183088f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter",
+        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
+        "author": "@gatsbyjs"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-01-15T18:20:55.604Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "97302e2fd2e49e5aa31b4f215dc9efd2",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2b5d9084-c039-5bca-b56b-6909ad39169e": {
+      "id": "2b5d9084-c039-5bca-b56b-6909ad39169e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0df914283a572299a44cb0d9a4ca7359",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hrashid/Sites/gatsby-site/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2019-01-14T23:07:19.000Z",
+      "accessTime": "2019-01-15T18:20:58.000Z",
+      "changeTime": "2019-01-14T23:07:19.000Z",
+      "birthTime": "2019-01-14T23:07:19.000Z",
+      "root": "/",
+      "dir": "/Users/hrashid/Sites/gatsby-site/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 0,
+      "gid": 2115988312,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 42406873,
+      "blocks": 0,
+      "atime": "2019-01-15T18:20:58.000Z",
+      "mtime": "2019-01-14T23:07:19.000Z",
+      "ctime": "2019-01-14T23:07:19.000Z",
+      "birthtime": "2019-01-14T23:07:19.000Z"
+    },
+    "5bed722d-9a08-5ee0-9c49-766aff54802a": {
+      "id": "5bed722d-9a08-5ee0-9c49-766aff54802a",
+      "children": [
+        "6bf97c18-b650-551a-a195-769c7b3ae019"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hrashid/Sites/gatsby-site/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-01-14T23:07:19.000Z",
+      "accessTime": "2019-01-15T18:14:20.000Z",
+      "changeTime": "2019-01-14T23:07:19.000Z",
+      "birthTime": "2019-01-14T23:07:19.000Z",
+      "root": "/",
+      "dir": "/Users/hrashid/Sites/gatsby-site/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 2115988312,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 42406875,
+      "blocks": 48,
+      "atime": "2019-01-15T18:14:20.000Z",
+      "mtime": "2019-01-14T23:07:19.000Z",
+      "ctime": "2019-01-14T23:07:19.000Z",
+      "birthtime": "2019-01-14T23:07:19.000Z"
+    },
+    "6bf97c18-b650-551a-a195-769c7b3ae019": {
+      "id": "6bf97c18-b650-551a-a195-769c7b3ae019",
+      "children": [],
+      "parent": "5bed722d-9a08-5ee0-9c49-766aff54802a",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "215488db-8c2c-5bec-8190-0fe5f8d5e8ae": {
+      "id": "215488db-8c2c-5bec-8190-0fe5f8d5e8ae",
+      "children": [
+        "e6ea87d5-ca80-5d10-8411-0b6abdb98d63"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/hrashid/Sites/gatsby-site/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-01-14T23:07:19.000Z",
+      "accessTime": "2019-01-15T18:14:20.000Z",
+      "changeTime": "2019-01-14T23:07:19.000Z",
+      "birthTime": "2019-01-14T23:07:19.000Z",
+      "root": "/",
+      "dir": "/Users/hrashid/Sites/gatsby-site/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 2115988312,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 42406874,
+      "blocks": 328,
+      "atime": "2019-01-15T18:14:20.000Z",
+      "mtime": "2019-01-14T23:07:19.000Z",
+      "ctime": "2019-01-14T23:07:19.000Z",
+      "birthtime": "2019-01-14T23:07:19.000Z"
+    },
+    "e6ea87d5-ca80-5d10-8411-0b6abdb98d63": {
+      "id": "e6ea87d5-ca80-5d10-8411-0b6abdb98d63",
+      "children": [],
+      "parent": "215488db-8c2c-5bec-8190-0fe5f8d5e8ae",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "a62181d8-185c-5d11-9697-8281a9b04c3b": {
+      "id": "a62181d8-185c-5d11-9697-8281a9b04c3b",
+      "drupal_id": "76e73cc6-12fc-48ca-b9f5-daf3ccbc9611",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "config": [
+          "system.menu.account"
+        ],
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_account_menu",
+      "theme": "bartik",
+      "region": "secondary_menu",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_menu_block:account",
+      "settings": {
+        "id": "system_menu_block:account",
+        "label": "User account menu",
+        "provider": "system",
+        "label_display": "0",
+        "level": 1,
+        "depth": 1
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "2191388a5a16a770448f7822252e48e6",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "77da476a-bf06-511b-953b-d51b28a3dd22": {
+      "id": "77da476a-bf06-511b-953b-d51b28a3dd22",
+      "drupal_id": "98f541fd-ee58-4e20-8d18-00f31c4256cc",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_branding",
+      "theme": "bartik",
+      "region": "header",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_branding_block",
+      "settings": {
+        "id": "system_branding_block",
+        "label": "Site branding",
+        "provider": "system",
+        "label_display": "0",
+        "use_site_logo": true,
+        "use_site_name": true,
+        "use_site_slogan": true
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "1010662213a7c2528f41937c616d02e4",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "47028a34-7750-5e03-a1a4-e447823fe63d": {
+      "id": "47028a34-7750-5e03-a1a4-e447823fe63d",
+      "drupal_id": "399cab30-20c9-4e00-8e2c-2c91b4e2f1bf",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_breadcrumbs",
+      "theme": "bartik",
+      "region": "breadcrumb",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_breadcrumb_block",
+      "settings": {
+        "id": "system_breadcrumb_block",
+        "label": "Breadcrumbs",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "17d3d366d593fe654a16a6aedc111663",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "137d5a21-5dc2-52d9-a4db-f2400ff7fc47": {
+      "id": "137d5a21-5dc2-52d9-a4db-f2400ff7fc47",
+      "drupal_id": "7c3c9fe0-7e1b-4ebf-a8ed-6a178f0b878d",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_content",
+      "theme": "bartik",
+      "region": "content",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_main_block",
+      "settings": {
+        "id": "system_main_block",
+        "label": "Main page content",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "e44dd1a8d3eaec3ca74dd41224516e03",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "df675faf-fd4d-5cc3-a55c-5b83ed8bd44c": {
+      "id": "df675faf-fd4d-5cc3-a55c-5b83ed8bd44c",
+      "drupal_id": "b826617c-4ce4-4c01-b9fe-d7c651c604cc",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "config": [
+          "system.menu.footer"
+        ],
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_footer",
+      "theme": "bartik",
+      "region": "footer_fifth",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_menu_block:footer",
+      "settings": {
+        "id": "system_menu_block:footer",
+        "label": "Footer menu",
+        "provider": "system",
+        "label_display": "0",
+        "level": 1,
+        "depth": 0
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "71f3f303df3cc44000ec5c45fad11d88",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "74c0a076-881c-561a-b87f-11ae4e339779": {
+      "id": "74c0a076-881c-561a-b87f-11ae4e339779",
+      "drupal_id": "df380e1a-ae6d-4063-b7f7-4f1c4c2643ae",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "help"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_help",
+      "theme": "bartik",
+      "region": "content",
+      "weight": -30,
+      "provider": null,
+      "plugin": "help_block",
+      "settings": {
+        "id": "help_block",
+        "label": "Help",
+        "provider": "help",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "1c47853b8914135a724c7463ad12fb10",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "96a4df0e-874c-54cc-846a-525a968d262c": {
+      "id": "96a4df0e-874c-54cc-846a-525a968d262c",
+      "drupal_id": "58469cb9-91dc-4971-9cdf-11f431d5de4d",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_local_actions",
+      "theme": "bartik",
+      "region": "content",
+      "weight": -20,
+      "provider": null,
+      "plugin": "local_actions_block",
+      "settings": {
+        "id": "local_actions_block",
+        "label": "Primary admin actions",
+        "provider": "core",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "0a41a693798bb705efb5d81fc4e91132",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "666e6036-0fda-5cca-b707-6cfbc707fc18": {
+      "id": "666e6036-0fda-5cca-b707-6cfbc707fc18",
+      "drupal_id": "a11d49bb-09a8-4337-a1d8-e6d9dd45d7a5",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_local_tasks",
+      "theme": "bartik",
+      "region": "content",
+      "weight": -40,
+      "provider": null,
+      "plugin": "local_tasks_block",
+      "settings": {
+        "id": "local_tasks_block",
+        "label": "Tabs",
+        "provider": "core",
+        "label_display": "0",
+        "primary": true,
+        "secondary": true
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "1d74f5585223250ae3e75de27987a9b8",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "53e2a5ae-7905-5088-ab8c-a82fbed808d7": {
+      "id": "53e2a5ae-7905-5088-ab8c-a82fbed808d7",
+      "drupal_id": "6846d329-e782-4220-8df5-e21da1186ea6",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "config": [
+          "system.menu.main"
+        ],
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_main_menu",
+      "theme": "bartik",
+      "region": "primary_menu",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_menu_block:main",
+      "settings": {
+        "id": "system_menu_block:main",
+        "label": "Main navigation",
+        "provider": "system",
+        "label_display": "0",
+        "level": 1,
+        "depth": 1
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "ee5829536cb342b1fe0e54963d7586a6",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "195097a3-10a4-5b00-bb42-e061a1e78645": {
+      "id": "195097a3-10a4-5b00-bb42-e061a1e78645",
+      "drupal_id": "8c437e4f-da38-48c0-a7b2-1e33fca4e0bf",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_messages",
+      "theme": "bartik",
+      "region": "highlighted",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_messages_block",
+      "settings": {
+        "id": "system_messages_block",
+        "label": "Status messages",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "28ac59c16e8e79b13ddd28559003efa0",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "984a70bf-0a7a-5f71-bbe9-a618fc9cdb3b": {
+      "id": "984a70bf-0a7a-5f71-bbe9-a618fc9cdb3b",
+      "drupal_id": "9999e4ba-8b80-42f8-aa73-0c3836cd24de",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_page_title",
+      "theme": "bartik",
+      "region": "content",
+      "weight": -50,
+      "provider": null,
+      "plugin": "page_title_block",
+      "settings": {
+        "id": "page_title_block",
+        "label": "Page title",
+        "provider": "core",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "f0546bc1f09bbfc5432195a8de7ee7d8",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "1b3dbca5-7e06-593e-b882-f1057fd18bfc": {
+      "id": "1b3dbca5-7e06-593e-b882-f1057fd18bfc",
+      "drupal_id": "ee1d37eb-13db-420e-99a9-5549189def07",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_powered",
+      "theme": "bartik",
+      "region": "footer_fifth",
+      "weight": 10,
+      "provider": null,
+      "plugin": "system_powered_by_block",
+      "settings": {
+        "id": "system_powered_by_block",
+        "label": "Powered by Drupal",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "d713054b5e2a35b11fea343bbee36381",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "4f1c1743-09ac-5171-b2c3-bc6faeeb8f52": {
+      "id": "4f1c1743-09ac-5171-b2c3-bc6faeeb8f52",
+      "drupal_id": "f0531633-601e-4bfa-9d0b-b68f7161dfa5",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "search"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_search",
+      "theme": "bartik",
+      "region": "sidebar_first",
+      "weight": -1,
+      "provider": null,
+      "plugin": "search_form_block",
+      "settings": {
+        "id": "search_form_block",
+        "label": "Search",
+        "provider": "search",
+        "label_display": "visible"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "20120bd53a133fcb788165f5cb3b2c8b",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "de1f9c41-06dd-519f-a324-08a7037f8b5c": {
+      "id": "de1f9c41-06dd-519f-a324-08a7037f8b5c",
+      "drupal_id": "26ecfae2-99fa-4d82-8964-4ee848a13944",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "config": [
+          "system.menu.tools"
+        ],
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "bartik"
+        ]
+      },
+      "drupal_internal__id": "bartik_tools",
+      "theme": "bartik",
+      "region": "sidebar_first",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_menu_block:tools",
+      "settings": {
+        "id": "system_menu_block:tools",
+        "label": "Tools",
+        "provider": "system",
+        "label_display": "visible",
+        "level": 1,
+        "depth": 0
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "c89c0d70feba5d8df3c3e0b4bd94371d",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "29d7de86-b795-58f5-b787-c728f6c2ac69": {
+      "id": "29d7de86-b795-58f5-b787-c728f6c2ac69",
+      "drupal_id": "11564db6-9da6-4e2b-b61a-f2ddad15463a",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_breadcrumbs",
+      "theme": "seven",
+      "region": "breadcrumb",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_breadcrumb_block",
+      "settings": {
+        "id": "system_breadcrumb_block",
+        "label": "Breadcrumbs",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "7cdf2533e6c65b37d888b11992b68c74",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "022ae71c-0f1b-5d20-ba74-4e5c887d0ea4": {
+      "id": "022ae71c-0f1b-5d20-ba74-4e5c887d0ea4",
+      "drupal_id": "0537b06e-c286-426e-af9b-1794e87184e3",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_content",
+      "theme": "seven",
+      "region": "content",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_main_block",
+      "settings": {
+        "id": "system_main_block",
+        "label": "Main page content",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "0add5f54720b14c8a2ebe2db82ba3fd1",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "3b4dc5dc-2fcf-5f01-a00a-a425a88df7b2": {
+      "id": "3b4dc5dc-2fcf-5f01-a00a-a425a88df7b2",
+      "drupal_id": "cb58b23a-0a84-4467-b8ff-cd7f0b093d5b",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "help"
+        ],
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_help",
+      "theme": "seven",
+      "region": "help",
+      "weight": 0,
+      "provider": null,
+      "plugin": "help_block",
+      "settings": {
+        "id": "help_block",
+        "label": "Help",
+        "provider": "help",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "8f58b10f95e3f3111d49305976697c91",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "6da498a5-00da-5803-b6e5-4877e909ab18": {
+      "id": "6da498a5-00da-5803-b6e5-4877e909ab18",
+      "drupal_id": "a122b085-dee1-4ce3-a34b-c55b19bd0372",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_local_actions",
+      "theme": "seven",
+      "region": "content",
+      "weight": -10,
+      "provider": null,
+      "plugin": "local_actions_block",
+      "settings": {
+        "id": "local_actions_block",
+        "label": "Primary admin actions",
+        "provider": "core",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "87731d6ed1e8f8dc2a65da57172d9ba2",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "f35d2fb3-ac3a-5fee-af09-ed9a4974e5c7": {
+      "id": "f35d2fb3-ac3a-5fee-af09-ed9a4974e5c7",
+      "drupal_id": "c782dced-6e0c-46d5-b891-4a0ebef906b0",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "user"
+        ],
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_login",
+      "theme": "seven",
+      "region": "content",
+      "weight": 10,
+      "provider": null,
+      "plugin": "user_login_block",
+      "settings": {
+        "id": "user_login_block",
+        "label": "User login",
+        "provider": "user",
+        "label_display": "visible"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "7a4a8c619a5f31141e40090fa69cb083",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "26693b16-5ca1-5a39-b908-cfdbf7299cf6": {
+      "id": "26693b16-5ca1-5a39-b908-cfdbf7299cf6",
+      "drupal_id": "d48b40b7-a1e3-426a-aba9-31e736c488b0",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "system"
+        ],
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_messages",
+      "theme": "seven",
+      "region": "highlighted",
+      "weight": 0,
+      "provider": null,
+      "plugin": "system_messages_block",
+      "settings": {
+        "id": "system_messages_block",
+        "label": "Status messages",
+        "provider": "system",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "13c18a55f0a83d972fbdeb060818b531",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "b7a7de16-9dd1-5f39-9ba8-e472c90facbf": {
+      "id": "b7a7de16-9dd1-5f39-9ba8-e472c90facbf",
+      "drupal_id": "49ef6bf8-8a75-4e69-b398-798fec198937",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_page_title",
+      "theme": "seven",
+      "region": "header",
+      "weight": -30,
+      "provider": null,
+      "plugin": "page_title_block",
+      "settings": {
+        "id": "page_title_block",
+        "label": "Page title",
+        "provider": "core",
+        "label_display": "0"
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "129ca2e8adaac53953b6c014230b366d",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "fbf60645-ebcf-5875-a3ea-7d91ee7f626b": {
+      "id": "fbf60645-ebcf-5875-a3ea-7d91ee7f626b",
+      "drupal_id": "4683cb11-3679-4ad3-8800-d7f5887a232a",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_primary_local_tasks",
+      "theme": "seven",
+      "region": "header",
+      "weight": 0,
+      "provider": null,
+      "plugin": "local_tasks_block",
+      "settings": {
+        "id": "local_tasks_block",
+        "label": "Primary tabs",
+        "provider": "core",
+        "label_display": "0",
+        "primary": true,
+        "secondary": false
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "96383cb4949cfa4cc584c690a4b167de",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "763dc6fc-8b6c-5780-aea9-4bb753a21afe": {
+      "id": "763dc6fc-8b6c-5780-aea9-4bb753a21afe",
+      "drupal_id": "f1314a6f-cdc6-42c8-94e8-2ff09733f2ea",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "theme": [
+          "seven"
+        ]
+      },
+      "drupal_internal__id": "seven_secondary_local_tasks",
+      "theme": "seven",
+      "region": "pre_content",
+      "weight": 0,
+      "provider": null,
+      "plugin": "local_tasks_block",
+      "settings": {
+        "id": "local_tasks_block",
+        "label": "Secondary tabs",
+        "provider": "core",
+        "label_display": "0",
+        "primary": false,
+        "secondary": true
+      },
+      "visibility": [],
+      "internal": {
+        "type": "block__block",
+        "contentDigest": "4a9331fd16dca4a642211314b1bcc325",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "58b92ab9-9a41-58da-b5f1-3860f54f8dea": {
+      "id": "58b92ab9-9a41-58da-b5f1-3860f54f8dea",
+      "drupal_id": "bdc62124-9541-4595-970f-37f38f1da15a",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": [],
+      "drupal_internal__id": "feedback",
+      "label": "Website feedback",
+      "recipients": [
+        "hello@harrisrashid.com"
+      ],
+      "reply": "",
+      "weight": 0,
+      "message": "Your message has been sent.",
+      "redirect": "",
+      "internal": {
+        "type": "contact_form__contact_form",
+        "contentDigest": "162ca07f3ad6f2e0605ea83ab627c0b5",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "7fcdba7f-1ca6-5338-90fd-ec215e8767ef": {
+      "id": "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
+      "drupal_id": "113fb7c6-0447-4036-9895-ec0290357fbb",
+      "parent": null,
+      "children": [],
+      "drupal_internal__nid": 1,
+      "drupal_internal__vid": 1,
+      "langcode": "en",
+      "revision_timestamp": "2019-01-15T18:20:21+00:00",
+      "revision_log": null,
+      "status": true,
+      "title": "Home",
+      "created": "2019-01-15T18:20:10+00:00",
+      "changed": "2019-01-15T18:20:21+00:00",
+      "promote": false,
+      "sticky": false,
+      "default_langcode": true,
+      "revision_translation_affected": true,
+      "path": {
+        "alias": null,
+        "pid": null,
+        "langcode": "en"
+      },
+      "body": {
+        "value": "<p>home page content</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>home page content</p>",
+        "summary": ""
+      },
+      "internal": {
+        "type": "node__page",
+        "contentDigest": "abebfd3fb99977662b171d6550d26c08",
+        "owner": "gatsby-source-drupal"
+      },
+      "relationships": {
+        "node_type___NODE": "cbc25bd5-c8cf-59ee-9d8b-69f9b48306bb",
+        "revision_uid___NODE": "27420c3d-9773-54f1-891d-ae81f7eb1247",
+        "uid___NODE": "27420c3d-9773-54f1-891d-ae81f7eb1247"
+      }
+    },
+    "a562b62f-a814-5194-ba0d-fe5615df3306": {
+      "id": "a562b62f-a814-5194-ba0d-fe5615df3306",
+      "drupal_id": "75694ef8-496e-4afa-9a31-26ae96031234",
+      "parent": null,
+      "children": [],
+      "drupal_internal__nid": 2,
+      "drupal_internal__vid": 2,
+      "langcode": "en",
+      "revision_timestamp": "2019-01-15T18:20:41+00:00",
+      "revision_log": null,
+      "status": true,
+      "title": "About Page",
+      "created": "2019-01-15T18:20:31+00:00",
+      "changed": "2019-01-15T18:20:41+00:00",
+      "promote": false,
+      "sticky": false,
+      "default_langcode": true,
+      "revision_translation_affected": true,
+      "path": {
+        "alias": null,
+        "pid": null,
+        "langcode": "en"
+      },
+      "body": {
+        "value": "<p>about page content</p>\r\n",
+        "format": "basic_html",
+        "processed": "<p>about page content</p>",
+        "summary": ""
+      },
+      "internal": {
+        "type": "node__page",
+        "contentDigest": "1782dc76b0b19a6f364d170afa6c6424",
+        "owner": "gatsby-source-drupal"
+      },
+      "relationships": {
+        "node_type___NODE": "cbc25bd5-c8cf-59ee-9d8b-69f9b48306bb",
+        "revision_uid___NODE": "27420c3d-9773-54f1-891d-ae81f7eb1247",
+        "uid___NODE": "27420c3d-9773-54f1-891d-ae81f7eb1247"
+      }
+    },
+    "cbc25bd5-c8cf-59ee-9d8b-69f9b48306bb": {
+      "id": "cbc25bd5-c8cf-59ee-9d8b-69f9b48306bb",
+      "drupal_id": "e4d7d8c0-2af6-4031-b952-5cd2b4de4239",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": [],
+      "name": "Basic page",
+      "drupal_internal__type": "page",
+      "description": "Use <em>basic pages</em> for your static content, such as an 'About us' page.",
+      "help": "",
+      "new_revision": true,
+      "preview_mode": 1,
+      "display_submitted": false,
+      "internal": {
+        "type": "node_type__node_type",
+        "contentDigest": "0fb30d765c5cfb02cf79148ff20e4f81",
+        "owner": "gatsby-source-drupal"
+      },
+      "relationships": {
+        "node--page___NODE": [
+          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
+          "a562b62f-a814-5194-ba0d-fe5615df3306"
+        ]
+      }
+    },
+    "89525a4b-dd8d-5b58-adb7-6518eaa546a2": {
+      "id": "89525a4b-dd8d-5b58-adb7-6518eaa546a2",
+      "drupal_id": "b8b4f57c-9075-4bda-a283-8bb3ce785574",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": [],
+      "name": "Article",
+      "drupal_internal__type": "article",
+      "description": "Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.",
+      "help": "",
+      "new_revision": true,
+      "preview_mode": 1,
+      "display_submitted": true,
+      "internal": {
+        "type": "node_type__node_type",
+        "contentDigest": "ff7a70ef85b533c23c4315e97a565216",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "84c3382f-8b5b-5624-9dee-6438516a2e8a": {
+      "id": "84c3382f-8b5b-5624-9dee-6438516a2e8a",
+      "drupal_id": "ad9606bb-acaf-46e3-a779-f0614523698f",
+      "parent": null,
+      "children": [],
+      "langcode": "en",
+      "status": true,
+      "dependencies": {
+        "module": [
+          "node"
+        ]
+      },
+      "drupal_internal__id": "node_search",
+      "label": "Content",
+      "path": "node",
+      "weight": -10,
+      "plugin": "node_search",
+      "configuration": {
+        "rankings": []
+      },
+      "internal": {
+        "type": "search_page__search_page",
+        "contentDigest": "ffa23fca85a864f3777d635159795536",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "74a35e4f-e08d-5e2a-98b5-20b59d0bc1e1": {
+      "id": "74a35e4f-e08d-5e2a-98b5-20b59d0bc1e1",
+      "drupal_id": "c9d668a3-5ce8-44da-a7fd-a2fe6696ef8d",
+      "parent": null,
+      "children": [],
+      "label": "User account menu",
+      "internal": {
+        "type": "menu__menu",
+        "contentDigest": "7058649e153c81aaeb0ee40f1dac0ff8",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "48ca9c23-38df-50c6-bdd4-ed6dfcd3e8fe": {
+      "id": "48ca9c23-38df-50c6-bdd4-ed6dfcd3e8fe",
+      "drupal_id": "8e0c9087-1df2-4e77-a4db-06242175ed16",
+      "parent": null,
+      "children": [],
+      "label": "Administration",
+      "internal": {
+        "type": "menu__menu",
+        "contentDigest": "107cd9717994c657e7ed9c2c9cc3f041",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "54ce775f-9dbc-5084-8162-45179c63cb5a": {
+      "id": "54ce775f-9dbc-5084-8162-45179c63cb5a",
+      "drupal_id": "5839b180-cc84-4f6b-8283-aa87d3ac7fa5",
+      "parent": null,
+      "children": [],
+      "label": "Footer",
+      "internal": {
+        "type": "menu__menu",
+        "contentDigest": "f50c35a3bf7e287030876fdf738b01d2",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "76c69345-11a8-54e6-971a-f126bc4d9c30": {
+      "id": "76c69345-11a8-54e6-971a-f126bc4d9c30",
+      "drupal_id": "eba24774-fdcf-4e76-acb6-0df71b84ba69",
+      "parent": null,
+      "children": [],
+      "label": "Main navigation",
+      "internal": {
+        "type": "menu__menu",
+        "contentDigest": "1ec8ee1cabce8dea1e48ebff55f25a82",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "b001c137-3576-55e8-b909-8ce80f70ed90": {
+      "id": "b001c137-3576-55e8-b909-8ce80f70ed90",
+      "drupal_id": "1e760cae-f9af-4336-aae9-abded7b9a1a6",
+      "parent": null,
+      "children": [],
+      "label": "Tools",
+      "internal": {
+        "type": "menu__menu",
+        "contentDigest": "cbe529a6bdfa8e9073f848bcde5f2179",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "dd6fbd16-2d42-5049-bf63-856314a775e4": {
+      "id": "dd6fbd16-2d42-5049-bf63-856314a775e4",
+      "drupal_id": "73d254e0-c452-4def-9f66-ba9611d6d00d",
+      "parent": null,
+      "children": [],
+      "name": "Anonymous",
+      "internal": {
+        "type": "user__user",
+        "contentDigest": "5ebfe12ae33f0d34ee2f3ef97eeec0a8",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "27420c3d-9773-54f1-891d-ae81f7eb1247": {
+      "id": "27420c3d-9773-54f1-891d-ae81f7eb1247",
+      "drupal_id": "867df452-7cb3-401d-a1ec-c0a5eed524c3",
+      "parent": null,
+      "children": [],
+      "name": "admin",
+      "internal": {
+        "type": "user__user",
+        "contentDigest": "148133184ea4fae5742e28fa1d458d2e",
+        "owner": "gatsby-source-drupal"
+      },
+      "relationships": {
+        "node--page___NODE": [
+          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
+          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
+          "a562b62f-a814-5194-ba0d-fe5615df3306",
+          "a562b62f-a814-5194-ba0d-fe5615df3306"
+        ]
+      }
+    },
+    "f562edbe-a0ea-50ac-ac80-1e53662a9382": {
+      "id": "f562edbe-a0ea-50ac-ac80-1e53662a9382",
+      "drupal_id": "ac726f96-4279-4fcb-ad5a-d481167887ac",
+      "parent": null,
+      "children": [],
+      "label": "Fallback date format",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "e4839d30d7e162b65395a5d5625d9abe",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "326b28fa-e91e-5e70-89d1-5879021501ee": {
+      "id": "326b28fa-e91e-5e70-89d1-5879021501ee",
+      "drupal_id": "bec5953a-a3a3-4523-806c-f32bd7b16351",
+      "parent": null,
+      "children": [],
+      "label": "HTML Datetime",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "92a28609dff651b3dc2b6b7863ffddb6",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "820a168e-17d8-595d-bfa0-fc2265790fa3": {
+      "id": "820a168e-17d8-595d-bfa0-fc2265790fa3",
+      "drupal_id": "626e25ee-7aac-446d-90fe-fe14cf824e2c",
+      "parent": null,
+      "children": [],
+      "label": "HTML Month",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "b112487968abcb59fd185cce770c81c9",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "82cf8d4d-4eb6-541a-8b3a-90dac2576252": {
+      "id": "82cf8d4d-4eb6-541a-8b3a-90dac2576252",
+      "drupal_id": "ee411870-3599-4402-87a8-32d47bb5934b",
+      "parent": null,
+      "children": [],
+      "label": "HTML Week",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "2fb8a66bdfc742c23f8287ccb078a4a1",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "f1b69296-6800-5c35-9cbc-85f60ae99e60": {
+      "id": "f1b69296-6800-5c35-9cbc-85f60ae99e60",
+      "drupal_id": "5fbae0b5-b7fe-46b7-90af-5d58ae93b2a9",
+      "parent": null,
+      "children": [],
+      "label": "HTML Year",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "e50a5af7ee5e2308483a1fd698e5637e",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "b97b59bd-b9bc-5efc-b619-ff034917b044": {
+      "id": "b97b59bd-b9bc-5efc-b619-ff034917b044",
+      "drupal_id": "f24485d1-104a-46f5-b41c-4ee81c9b53d7",
+      "parent": null,
+      "children": [],
+      "label": "HTML Yearless date",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "5ef28ad8feb3e5e1df66431817777742",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "fe282e82-eca4-5aac-974c-56a6473a05e3": {
+      "id": "fe282e82-eca4-5aac-974c-56a6473a05e3",
+      "drupal_id": "f6f93e4a-33bb-4d1a-b8b8-e986942f514e",
+      "parent": null,
+      "children": [],
+      "label": "Default long date",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "3b6a3a06488ae946c38da180e3ce6aa0",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "f162d59b-c0c0-51f5-8e19-7f26447df870": {
+      "id": "f162d59b-c0c0-51f5-8e19-7f26447df870",
+      "drupal_id": "33c46008-a7db-4f27-9895-47e0084ab1fe",
+      "parent": null,
+      "children": [],
+      "label": "HTML Date",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "1a3ab2631b760a3e8c04d959a1678f52",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "c702719c-d2c0-5491-8c41-8bcd48e0b44b": {
+      "id": "c702719c-d2c0-5491-8c41-8bcd48e0b44b",
+      "drupal_id": "ad75ba0a-c14e-42f4-905b-d1f8bef28eb5",
+      "parent": null,
+      "children": [],
+      "label": "HTML Time",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "0802dcfa2d56877356d744aee323a976",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "b2acc810-7086-5252-976b-a1a678e0a6f2": {
+      "id": "b2acc810-7086-5252-976b-a1a678e0a6f2",
+      "drupal_id": "3b762d59-1b67-475f-836d-066796b991a1",
+      "parent": null,
+      "children": [],
+      "label": "Default medium date",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "9f009d17318ba8c7cf6e9c4cc0133565",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "3670361c-bae0-52dd-a065-dc26415e0316": {
+      "id": "3670361c-bae0-52dd-a065-dc26415e0316",
+      "drupal_id": "339cc02a-9dac-4470-ac5c-4806fdf75a83",
+      "parent": null,
+      "children": [],
+      "label": "Default short date",
+      "internal": {
+        "type": "date_format__date_format",
+        "contentDigest": "1e5bfe464cb255ab6e97461fa8e45578",
+        "owner": "gatsby-source-drupal"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/hrashid/Sites/gatsby-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "pluginCreatorId": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "17f79981410caece11eeeb01a3e90313",
+        "description": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/hrashid/Sites/gatsby-site/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "pluginCreatorId": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "960a40547c19aabab6a752535b12ba43",
+        "description": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "jsonName": "page-2-fbc",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/hrashid/Sites/gatsby-site/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "pluginCreatorId": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7616e58686e6a9038d4f0070824082aa",
+        "description": "6248c02f-e1b4-50f1-b633-6e348efdbf22",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/hrashid/Sites/gatsby-site/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2c46e81d1fa1d8c19b48977bc01fa676",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "83657c705c914abfc2f97450426795db"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "215488db-8c2c-5bec-8190-0fe5f8d5e8ae": [
+        "sq--src-components-image-js"
+      ],
+      "e6ea87d5-ca80-5d10-8411-0b6abdb98d63": [
+        "sq--src-components-image-js"
+      ]
+    },
+    "connections": {
+      "node__page": [
+        null,
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 1025518380,
+    "index": "479/path---index-6a9-Xi7dTnFRwkKePlgN9L0sJyB3L3s",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/hrashid/Sites/gatsby-site/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/.cache/dev-404-page.js"
+    },
+    "/Users/hrashid/Sites/gatsby-site/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/404.js"
+    },
+    "/Users/hrashid/Sites/gatsby-site/src/pages/index.js": {
+      "query": "query usersHrashidSitesGatsbySiteSrcPagesIndexJs1851481711 {\n  allNodePage(filter: {id: {eq: \"7fcdba7f-1ca6-5338-90fd-ec215e8767ef\"}}) {\n    edges {\n      node {\n        id\n        title\n        body {\n          value\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/index.js"
+    },
+    "/Users/hrashid/Sites/gatsby-site/src/pages/page-2.js": {
+      "query": "",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/pages/page-2.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-image-js": {
+      "name": "usersHrashidSitesGatsbySiteSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersHrashidSitesGatsbySiteSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/hrashid/Sites/gatsby-site/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
