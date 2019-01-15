@@ -963,12 +963,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-15T18:20:55.604Z",
+      "buildTime": "2019-01-15T20:52:05.639Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "97302e2fd2e49e5aa31b4f215dc9efd2",
+        "contentDigest": "9ab00f84c1d063dbc652cd46c8fe2d15",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -978,7 +978,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "0df914283a572299a44cb0d9a4ca7359",
+        "contentDigest": "1c6bc2bb5d73389b5da20aaa4a6f6de5",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -990,7 +990,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2019-01-14T23:07:19.000Z",
-      "accessTime": "2019-01-15T18:20:58.000Z",
+      "accessTime": "2019-01-15T20:52:08.000Z",
       "changeTime": "2019-01-14T23:07:19.000Z",
       "birthTime": "2019-01-14T23:07:19.000Z",
       "root": "/",
@@ -1008,7 +1008,7 @@
       "blksize": 4096,
       "ino": 42406873,
       "blocks": 0,
-      "atime": "2019-01-15T18:20:58.000Z",
+      "atime": "2019-01-15T20:52:08.000Z",
       "mtime": "2019-01-14T23:07:19.000Z",
       "ctime": "2019-01-14T23:07:19.000Z",
       "birthtime": "2019-01-14T23:07:19.000Z"
@@ -1938,14 +1938,14 @@
       "parent": null,
       "children": [],
       "drupal_internal__nid": 1,
-      "drupal_internal__vid": 1,
+      "drupal_internal__vid": 4,
       "langcode": "en",
-      "revision_timestamp": "2019-01-15T18:20:21+00:00",
+      "revision_timestamp": "2019-01-15T20:51:32+00:00",
       "revision_log": null,
       "status": true,
-      "title": "Home",
+      "title": "Home from drupal",
       "created": "2019-01-15T18:20:10+00:00",
-      "changed": "2019-01-15T18:20:21+00:00",
+      "changed": "2019-01-15T20:51:32+00:00",
       "promote": false,
       "sticky": false,
       "default_langcode": true,
@@ -1956,14 +1956,14 @@
         "langcode": "en"
       },
       "body": {
-        "value": "<p>home page content</p>\r\n",
+        "value": "<p>home page content222</p>\r\n",
         "format": "basic_html",
-        "processed": "<p>home page content</p>",
+        "processed": "<p>home page content222</p>",
         "summary": ""
       },
       "internal": {
         "type": "node__page",
-        "contentDigest": "abebfd3fb99977662b171d6550d26c08",
+        "contentDigest": "05c8179c1235f8f9dad6f4cedbd796ae",
         "owner": "gatsby-source-drupal"
       },
       "relationships": {
@@ -2029,13 +2029,13 @@
       "display_submitted": false,
       "internal": {
         "type": "node_type__node_type",
-        "contentDigest": "0fb30d765c5cfb02cf79148ff20e4f81",
+        "contentDigest": "0fd73679618c75b1d3ec7381a9830a10",
         "owner": "gatsby-source-drupal"
       },
       "relationships": {
         "node--page___NODE": [
-          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
-          "a562b62f-a814-5194-ba0d-fe5615df3306"
+          "a562b62f-a814-5194-ba0d-fe5615df3306",
+          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef"
         ]
       }
     },
@@ -2166,15 +2166,15 @@
       "name": "admin",
       "internal": {
         "type": "user__user",
-        "contentDigest": "148133184ea4fae5742e28fa1d458d2e",
+        "contentDigest": "3a1c095802b4ce8237799657db10ea49",
         "owner": "gatsby-source-drupal"
       },
       "relationships": {
         "node--page___NODE": [
-          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
-          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
           "a562b62f-a814-5194-ba0d-fe5615df3306",
-          "a562b62f-a814-5194-ba0d-fe5615df3306"
+          "a562b62f-a814-5194-ba0d-fe5615df3306",
+          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef",
+          "7fcdba7f-1ca6-5338-90fd-ec215e8767ef"
         ]
       }
     },
@@ -2419,7 +2419,7 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
     "sq--src-components-seo-js": 1025518380,
-    "index": "479/path---index-6a9-Xi7dTnFRwkKePlgN9L0sJyB3L3s",
+    "index": "51/path---index-6a9-0PEkohAMF0L0Ec3ORybQTXm0mdc",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-image-js": 2011440971,
